@@ -1,4 +1,4 @@
-/*police*/
+/* Définition des polices personnalisées*/
 
 @font-face{
 	font-family: 'Raleway' ;
@@ -11,9 +11,99 @@
 	font-style: normal;
 }
 
-/*générale*/
+
+
+#bloc_page{
+	width: 1490px;
+	margin: 0 auto;
+	
+}
 
 body{
 	font-family: 'Raleway', sans sans-serif;
+	font-size: 14px;
 	margin: 0px;
 }
+
+/*en_tête*/
+header{
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	height: 100px;
+	margin: auto;
+}
+
+header img{
+	width: 100px;
+	align-self: center;
+}
+
+/*logo*/
+
+#logo_réservia{
+	display: flex;
+	margin: 20px 20px 20px 20px;
+}
+	
+
+/*Navigation*/
+
+.bouton_navigation{
+	display: flex;
+	height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    margin-right: 400px;
+
+}
+
+
+.lien_nav{
+	text-decoration: none;
+	color: inherit;
+	display: flex;
+}
+
+.bouton_nav{
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.bouton_nav:hover{
+	color: #0065FC;
+	border-top: 3px solid #0065FC;
+	font-weight: bold;
+}
+
+
+#inscription{
+	color: #0065FC;
+	font-weight: bold;
+}
+
+/*titre et recherche*/
+
+
+.titre{
+	margin: 0px 0px 0px 50px;
+}
+h1{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0px;
+}
+p{
+	padding: 0px;
+}
+
+
+
+
+
+
+
