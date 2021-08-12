@@ -5,18 +5,16 @@ body{
 
 .blocpage{
     width: 100%;
-    
 }
 
 
 header img{
-  
     width: 100px;
     align-self: center;
-    padding-top: 21px ;
+    padding-top: 10px ;
 }
 
-/*Navigation*/
+/*NAVIGATION*/
 
 .contenunav {
     display: flex;
@@ -42,7 +40,7 @@ header ul {
   }
   
   header ul li {
-    margin-left: 28px;
+    margin-left: 60px;
   }
   
   a {
@@ -62,10 +60,10 @@ header ul {
   }
   
   .inscrire {
-    padding-left: 28px;
+    padding-left: 60px;
   }
 
-/*Recherches*/
+/*RECHERCHES*/
 
 
 .logosearch {
@@ -123,7 +121,7 @@ input {
   display: none;
 }
 
-/*Filtres*/
+/*FILTRES*/
 
 .titrefiltres {
   font-size: 1.3em;
@@ -175,7 +173,7 @@ input {
   color: black;
 }
 
-/*Information*/
+/*INFORMATION*/
 
 .info {
   display: flex;
@@ -196,14 +194,16 @@ input {
   padding-left: 10px;
 }
 
-/*Hébergements*/
+/* HEBERGEMENT ET POPULAIRES */
 
-.hebergementetpop{
+.hebergementetpop {
   display: flex;
   margin: 25px 0 50px;
 }
 
-#Hebergements{
+/* HEBERGEMENTS */
+
+#Hebergements {
   background-color: #f2f2f2;
   border-radius: 15px;
   width: 62%;
@@ -211,12 +211,12 @@ input {
   margin: 0 25px 0 0;
 }
 
-.hebergementmarseille{
+.hebergementmarseille {
   display: flex;
   flex-wrap: wrap;
 }
 
-.hotel{
+.hotel {
   width: 30%;
   width: calc(33.3% - 10px);
   background: white;
@@ -226,9 +226,7 @@ input {
   margin: 0 5px 20px 5px;
   box-shadow: 0 5px 16px #0000002e;
 
-
-  /*Ma transition Css*/
-
+  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
   -webkit-transition: all 1s ease; /* Safari et Chrome */
   -moz-transition: all 1s ease; /* Firefox */
   -ms-transition: all 1s ease; /* Internet Explorer 9 */
@@ -236,16 +234,15 @@ input {
   transition: all 1s ease;
 }
 
-.hotel:hover{
+.hotel:hover {
   -webkit-transform: scale(1.05); /* Safari et Chrome */
   -moz-transform: scale(1.05); /* Firefox */
   -ms-transform: scale(1.05); /* Internet Explorer 9 */
   -o-transform: scale(1.05); /* Opera */
   transform: scale(1.05);
-
 }
 
-.hotel img{
+.hotel img {
   background-color: white;
   border-radius: 15px 15px 0px 0px;
   transition-duration: 0.1s;
@@ -255,41 +252,43 @@ input {
   object-fit: cover;
 }
 
-.hotel p{
+.hotel p {
   margin: 5px 10px;
   font-weight: 100;
 }
 
-.hotel h3{
+.hotel h3 {
   margin: 3px 10px;
 }
 
-.etoiles{
+.etoiles {
   margin: 3px 10px;
 }
 
-.main{
+.main {
   display: flex;
 }
 
-.afficherplus{
+.afficherplus {
   color: black;
   padding-left: 8px;
 }
 
-
-/*Hébergements Populaires*/
+/* HEBERGEMENTS POPULAIRES */
 
 #pluspopulaires {
   background-color: #f2f2f2;
-  border-radius: 15px;
-  width: 32%;
-  padding: 20px;
-  display: flex;
+  border-radius: 2em 2em 2em 2em;
+  padding: 0px 30px;
+  width: 30%;
 }
 
+
 .hebergementspop {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  
 }
 
 .hotelpop {
@@ -302,6 +301,7 @@ input {
   margin: 0px 0px 20px 0px;
   height: 145px;
   box-shadow: 0 5px 16px #0000002e;
+  
   /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
   -webkit-transition: all 1s ease; /* Safari et Chrome */
   -moz-transition: all 1s ease; /* Firefox */
@@ -311,8 +311,8 @@ input {
 }
 
 .hotelpop:hover {
-  /* L'image est zoomé au survol */
-
+  
+/* L'image est zoomé au survol */
   -webkit-transform: scale(1.15); /* Safari et Chrome */
   -moz-transform: scale(1.15); /* Firefox */
   -ms-transform: scale(1.15); /* Internet Explorer 9 */
@@ -335,7 +335,7 @@ input {
 .fa-chart-line:before {
   content: "\f201";
   position: absolute;
-  right: 43px;
+  right: 80px;
   margin-top: -17px;
   color: black;
 }
@@ -345,7 +345,9 @@ input {
 }
 
 .hotelpop h3 {
-  margin: 7px;
+  min-height: 15em;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .hotelpop p {
@@ -356,4 +358,115 @@ input {
 .etoilespop {
   margin: 30px;
 }
+/* ACTIVITEs */
 
+#Activite {
+  width: 80%;
+}
+
+.containerActivites {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  height: 496px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.blocActivite {
+  width: 23%;
+}
+
+.Activite {
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+}
+
+.Activite:hover {
+  /* L'image est zoomé au survol */
+
+  -webkit-transform: scale(1.05); /* Safari et Chrome */
+  -moz-transform: scale(1.05); /* Firefox */
+  -ms-transform: scale(1.05); /* Internet Explorer 9 */
+  -o-transform: scale(1.05); /* Opera */
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.titresection {
+  color: black;
+  font-size: 1.3em;
+  padding-left: 8px;
+}
+
+.Activite img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.activite1et4img {
+  height: 440px;
+}
+
+.activite2img {
+  height: 200px;
+}
+
+.activite3img {
+  height: 110px;
+}
+
+.activite5img {
+  height: 140px;
+}
+
+.activite6img {
+  height: 140px;
+}
+
+.nomactivite {
+  padding: 0 0px 5px 20px;
+}
+
+.Activite2 {
+  margin: 0px 0px 61px;
+}
+
+.Activite5 {
+  margin: 0px 0px 92px;
+}
+
+/*FOOTER*/
+
+footer{
+  background-color: #f2f2f2;
+}
+
+.blockFooter{
+  display: flex;
+  max-width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.interieurblockFooter{
+  width: 40%;
+}
+
+.footerTitre{
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.lignesFooter{
+  color: black;
+  display: block;
+  margin: 15px 0;
+  font-weight: 500;
+}
