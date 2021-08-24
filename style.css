@@ -135,6 +135,8 @@ input {
     padding-right: 1.5em;
     padding-left: 0.5em;
     cursor: pointer;
+    white-space:nowrap
+    
 }
 
 .barreFiltre:hover {
@@ -233,8 +235,8 @@ input {
 }
 
 .hotel:hover {
-  transform: scale(1.05);
-  transition: 1s;
+    transform: scale(1.05);
+    transition: 2s;
 }
 
 .hotel img {
@@ -303,12 +305,12 @@ input {
 
 .hotelpop:hover {
     transform: scale(1.05);
+    transition: 0.1s;
     
 }
 
 .popimage {
     background-color: white;
-    transition-duration: 0.2s;
     cursor: pointer;
     float: left;
     width: 140px;
@@ -520,25 +522,31 @@ footer{
   .filtres {
     display: grid;
   }
-
+  
   .titrefiltres {
     margin-bottom: 10px;
   }
 
   .barreFiltre {
-    width: 50%;
+    display: flex;
+    width: max-content;
     margin-bottom: 10px;
   }
- 
+
+  
   .fam {
-    
-      position: absolute;
-      top: 336px;
-      margin: 34px 0 0 55%;
-      width: 35%;
-      height: 9%;
-    
+    position: absolute;
+    top: 336px;
+    margin: 34px 0 0 55%;
+    width: 35%;
+    height: 9%;
   }
+
+  .imagefiltre{
+    display: flex;
+    width: min-content;
+  }
+   
 
 /*Hébergements*/
   .hebergementetpop {
@@ -664,9 +672,116 @@ footer{
 
   .barreFiltre {
     width: 30%;
+    margin: 10px 5px 0 0;
   }
 
   .info {
-    align-items: CENTER;
+    align-items: center;
     position: relative;
   }
+
+
+  .titresection1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+
+  .titresection {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  #Hebergements {
+    height: 900px;
+    left: 15%; 
+    margin-bottom: 20px;
+    border-radius: 18px;
+  }
+
+  .hotel h3{
+    font-size: 16px;
+    margin-block: 10px;
+    margin-left: 1px;
+    width: max-content;
+  }
+
+  .hotel p{
+    font-size: 14px;
+  }
+
+  .etoiles{
+    padding-top: 10px;
+  }
+
+  .hotel{
+    width: 45%;
+    height: 250px;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+
+  .herbegementetpop{
+    margin: 25px 0 50px;
+    display: flex;
+  }
+
+  #pluspopulaires {
+    height: 940px;
+    width: 32%;
+  }
+
+  .hebergementspop {
+    margin: 10px 50px 0px 0px;
+    transform: translate(-8%);
+  }
+
+  .hotelpop{
+    width: 150%;
+    height: 235px;
+    padding: 8px;
+    margin: 0 0 40px 0;
+    font-size: 14px;    
+  }
+
+ .hotelpop h3{
+   font-size: 16px;
+   padding-top: 10px;
+  
+ }
+
+ .hotelpop p{
+   font-size: 14px;
+   text-align: center;
+   padding-top: 10px;
+  
+ }
+  
+  .popimage{
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 15px 15px;
+    margin: 0px 10px 2px 0px;
+   
+  }
+
+  .etoilespop{
+    padding-top: 10px;
+    margin: 0;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .fa-chart-line:before {
+    right: 40px;
+    color: black;
+}
+
+.afficherplus{
+  width: auto;
+}
+
+  footer {
+    border-radius: 0;
+  }
+}
