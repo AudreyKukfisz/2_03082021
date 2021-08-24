@@ -26,7 +26,7 @@
 
 • Ne pas utiliser de framework ou pré-compilateur *CSS ( utiliser du HTML et CSS)*.
 
-• Utiliser *Visual Studio Code*, et ses plugins *Live Server ou Prettier*…
+• Utiliser *Visual Studio Code* et ses plugins *Live Server ou Prettier*…
 
 • Intégrer les icônes *Font Awesome* en HTML ou CSS.
 
@@ -34,7 +34,7 @@
 
 • Le site devra être compatible avec les dernières versions de *Chrome et Firefox*.
 
-• Séparer le *HTML et le CSS* et organiser le dossier de rendu.
+• Séparer le *HTML et le CSS*  organiser le dossier de rendu.
 
 • Versionner le code avec Git puis le déployer sur la page *GitHub Pages ou GitLab*.
 
