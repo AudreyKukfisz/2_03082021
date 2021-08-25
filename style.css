@@ -130,7 +130,7 @@ input {
 }
 
 .titre {
-<<<<<<< HEAD
+
     font-family: "Raleway", "Sans serif";
     font-weight: bold;
     padding-right: 1.5em;
@@ -138,15 +138,6 @@ input {
     cursor: pointer;
     white-space:nowrap
     
-=======
-  font-family: "Raleway", "Sans serif";
-  font-weight: bold;
-  padding-right: 1.5em;
-  padding-left: 0.5em;
-  cursor: pointer;
-  white-space:nowrap
-  
->>>>>>> responsive
 }
 
 .barreFiltre:hover {
@@ -175,7 +166,7 @@ input {
 }
 
 .imagefiltre {
-<<<<<<< HEAD
+
     color: #0065FC;
     font-size: 1.4em;
     background: #deebff;
@@ -183,16 +174,8 @@ input {
     padding: 16px;
     width: 30px;
     text-align: center;
-=======
-  color: #0065FC;
-  font-size: 1.4em;
-  background: #deebff;
-  border-radius: 50px;
-  padding: 16px;
-  width: 30px;
-  text-align: center;
->>>>>>> responsive
 }
+
 
 .fas {
   color: #0065fc;
@@ -248,7 +231,7 @@ input {
 }
 
 .hotel {
-<<<<<<< HEAD
+  
     width: 30%;
     width: calc(33.3% - 10px);
     background: white;
@@ -271,31 +254,8 @@ input {
     width: 100%;
     height: 120px;
     object-fit: cover;
-=======
-  width: 30%;
-  width: calc(33.3% - 10px);
-  background: white;
-  border-radius: 20px;
-  padding: 5px;
-  box-sizing: border-box;
-  margin: 0 5px 20px 5px;
-  box-shadow: 0 5px 16px #0000002e;
 }
 
-.hotel:hover {
-  transform: scale(1.05);
-  transition: 2s;
-}
-
-.hotel img {
-  background-color: white;
-  border-radius: 15px 15px 0px 0px;
-  cursor: pointer;
-  width: 100%;
-  height: 120px;
-  object-fit: cover;
->>>>>>> responsive
-}
 
 .hotel p {
   margin: 5px 10px;
@@ -307,13 +267,8 @@ input {
 }
 
 .etoiles {
-<<<<<<< HEAD
     margin: 3px 10px;
     color: #0065fc;
-=======
-  margin: 3px 10px;
-  color: #0065fc;
->>>>>>> responsive
 }
 
 .main {
@@ -343,7 +298,6 @@ input {
 }
 
 .hotelpop {
-<<<<<<< HEAD
     display: flex;
     justify-content: left;
     align-self: auto;
@@ -355,24 +309,10 @@ input {
     margin: 0px 0px 20px 0px;
     height: 145px;
     box-shadow: 0 5px 16px #0000002e;
-=======
-  display: flex;
-  justify-content: left;
-  align-self: auto;
-  width: 100%;
-  background: white;
-  border-radius: 20px;
-  padding: 6px;
-  box-sizing: border-box;
-  margin: 0px 0px 20px 0px;
-  height: 145px;
-  box-shadow: 0 5px 16px #0000002e;
->>>>>>> responsive
 }
 
 
 .hotelpop:hover {
-<<<<<<< HEAD
     transform: scale(1.05);
     transition: 0.1s;
     
@@ -387,22 +327,6 @@ input {
     border-radius: 15px 0 0 15px;
     margin: 0px 10px 2px 0px;
     object-fit: cover;
-=======
-  transform: scale(1.05);
-  transition: 0.1s;
-  
-}
-
-.popimage {
-  background-color: white;
-  cursor: pointer;
-  float: left;
-  width: 140px;
-  height: 100%;
-  border-radius: 15px 0 0 15px;
-  margin: 0px 10px 2px 0px;
-  object-fit: cover;
->>>>>>> responsive
 }
 
 .fa-chart-line:before {
@@ -418,15 +342,9 @@ input {
 }
 
 .hotelpop h3 {
-<<<<<<< HEAD
     min-height: 15em;
     display: table-cell;
     vertical-align: top;
-=======
-  min-height: 15em;
-  display: table-cell;
-  vertical-align: top;
->>>>>>> responsive
 }
 
 .hotelpop p {
@@ -435,13 +353,8 @@ input {
 }
 
 .etoilespop {
-<<<<<<< HEAD
     margin: 30px;
     color:#0065FC;
-=======
-  margin: 30px;
-  color:#0065FC;
->>>>>>> responsive
 }
 /* ACTIVITEs */
 
@@ -472,13 +385,8 @@ input {
 }
 
 .Activite:hover {
-<<<<<<< HEAD
     transform: scale(1.05);
     
-=======
-  transform: scale(1.05);
-  
->>>>>>> responsive
 }
 
 .titresection {
@@ -569,17 +477,10 @@ h2{
   justify-items: center;
 }
 
-<<<<<<< HEAD
   H3 {
     font-size: 15px;
     font-weight: bold;
   }
-=======
-H3 {
-  font-size: 15px;
-  font-weight: bold;
-}
->>>>>>> responsive
 
 /*Header*/
 header{
@@ -627,7 +528,6 @@ header ul li {
 }
 
 /*Filtres*/
-<<<<<<< HEAD
   .filtres {
     display: grid;
   }
@@ -641,36 +541,6 @@ header ul li {
     width: max-content;
     margin-bottom: 10px;
   }
-=======
-.filtres {
-  display: grid;
-}
-
-.titrefiltres {
-  margin-bottom: 10px;
-}
-
-.barreFiltre {
-  display: flex;
-  width: max-content;
-  margin-bottom: 10px;
-}
-
-
-.fam {
-  position: absolute;
-  top: 336px;
-  margin: 34px 0 0 55%;
-  width: 35%;
-  height: 9%;
-}
-
-.imagefiltre{
-  display: flex;
-  width: min-content;
-}
- 
->>>>>>> responsive
 
   
   .fam {
@@ -782,7 +652,6 @@ header ul li {
 }
 
 
-<<<<<<< HEAD
   .Activite img{
     width: 100%;
     height: 100px;
@@ -802,8 +671,6 @@ header ul li {
   }
   
   
-=======
->>>>>>> responsive
 /*Footer*/
 .blockFooter{
   display:grid;
@@ -834,8 +701,7 @@ header ul li {
   margin-top: -15px;
 }
 
-<<<<<<< HEAD
-  .barreFiltre {
+.barreFiltre {
     width: 30%;
     margin: 10px 5px 0 0;
   }
@@ -859,6 +725,8 @@ header ul li {
 
   #Hebergements {
     height: 900px;
+    left: 15%; 
+  left: 15%; 
     left: 15%; 
     margin-bottom: 20px;
     border-radius: 18px;
@@ -899,6 +767,7 @@ header ul li {
   .hebergementspop {
     margin: 10px 50px 0px 0px;
     transform: translate(-8%);
+    padding: 10px 0;
   }
 
   .hotelpop{
@@ -907,11 +776,14 @@ header ul li {
     padding: 8px;
     margin: 0 0 40px 0;
     font-size: 14px;    
+  font-size: 14px;    
+    font-size: 14px;    
   }
 
  .hotelpop h3{
    font-size: 16px;
-   padding-top: 10px;
+   padding: 10px 20px 0px 20px;
+   text-align: center;
   
  }
 
@@ -919,25 +791,26 @@ header ul li {
    font-size: 14px;
    text-align: center;
    padding-top: 10px;
+   margin:0;
   
  }
   
   .popimage{
     width: 100%;
     height: 120px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 0px 0px;
     margin: 0px 10px 2px 0px;
    
   }
 
-  .etoilespop{
+.etoilespop{
     padding-top: 10px;
     margin: 0;
     flex-direction: row;
     text-align: center;
-  }
+}
 
-  .fa-chart-line:before {
+.fa-chart-line:before {
     right: 40px;
     color: black;
 }
@@ -946,141 +819,6 @@ header ul li {
   width: auto;
 }
 
-  footer {
-    border-radius: 0;
-  }
-}
-=======
-/*Filtres*/
-
-.filtres {
-  display: flex;
-  align-items: center;
-}
-
-.titre {
-  font-size: 12px;
-}
-
-.barreFiltre {
-  width: 30%;
-  margin: 10px 5px 0 0;
-}
-
-.imagefiltre
-{
-  width:25px;
-}
-/*Information*/
-
-.info {
-  align-items: center;
-  position: relative;
-}
-
-/*Hébergements et pop*/
-
-.titresection1{
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 40px;
-}
-
-.titresection {
-  text-align: center;
-  padding-bottom: 5px;
-}
-
-#Hebergements {
-  height: 900px;
-  left: 15%; 
-  margin-bottom: 20px;
-  border-radius: 18px;
-}
-
-.hotel h3{
-  font-size: 16px;
-  margin-block: 10px;
-  margin-left: 1px;
-  width: max-content;
-}
-
-.hotel p{
-  font-size: 14px;
-}
-
-.etoiles{
-  padding-top: 10px;
-}
-
-.hotel{
-  width: 45%;
-  height: 250px;
-  font-size: 16px;
-  margin-left: 15px;
-}
-
-.herbegementetpop{
-  margin: 25px 0 50px;
-  display: flex;
-}
-
-/*Hébergements Populaires*/
-
-#pluspopulaires {
-  height: 940px;
-  width: 32%;
-}
-
-.hebergementspop {
-  margin: 10px 50px 0px 0px;
-  transform: translate(-8%);
-  padding: 10px 0;
-}
-
-.hotelpop{
-  width: 150%;
-  height: 235px;
-  padding: 8px;
-  margin: 0 0 40px 0;
-  font-size: 14px;    
-}
-
-.hotelpop h3{
- font-size: 16px;
- padding: 10px 20px 0px 20px;
- text-align: center;
-}
-
-.hotelpop p{
- font-size: 14px;
- text-align: center;
- padding-top: 10px;
- margin: 0;
-}
-
-.popimage{
-  width: 100%;
-  height: 120px;
-  border-radius: 15px 15px 0px 0px;
-  margin: 0px 10px 2px 0px;
-}
-
-.etoilespop{
-  padding-top: 10px;
-  margin: 0;
-  flex-direction: row;
-  text-align: center;
-}
-
-.fa-chart-line:before {
-  right: 40px;
-  color: black;
-}
-
-.afficherplus{
-width: auto;
-}
 
 /*Acticités*/
 
@@ -1096,5 +834,10 @@ width: auto;
 }
 
 }
+/* GRAND ECRAN */ 
 
->>>>>>> responsive
+@media (min-width: 1025px) and (max-width: 1600px) {
+  #pluspopulaires {
+    display: grid;
+  }
+}
