@@ -583,6 +583,8 @@ header ul li {
   font-size: 14px;
 }
 
+/*Populaires*/
+
 .hotelpop {
   width: 95%;
   padding: 5px;
@@ -593,9 +595,6 @@ header ul li {
 .hotelpop p{
   margin-top: 20px;
 }
-
-
-
   
 
 /*Populaires*/
@@ -617,9 +616,6 @@ header ul li {
   display: flex;
 }
 
-  .etoilespop{
-    display: flex;
-  }
 
 /*Activités*/
 .containerActivites {
@@ -687,55 +683,64 @@ header ul li {
 {
 
 /*Recherhes*/
+.contenunav{
+  margin-right: -10%;
+}
 
 .Tit{
   text-align: center;
-  margin-bottom: 15px;
+  margin-right: -100px;
 }
 
 .logosearch {
   position: relative;
-  left: 52%;
+  left: 60%;
   transform: translateX(-50%);
   margin-bottom: 5px;
   margin-top: -15px;
 }
 
+/*Filtres*/
+.titre{
+  padding-right: 1em;
+}
+
+.filtres{
+  margin-right: 30px;
+}
 .barreFiltre {
     width: 30%;
     margin: 10px 5px 0 0;
   }
 
+/*Information*/
   .info {
     align-items: center;
     position: relative;
   }
 
+/*Hébergements et Pop*/
+  .hebergementetpop{
+     width: 112%;
+      margin: 25px 0 50px;
+      display: flex;
+    }
 
-  .titresection1{
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 40px;
-  }
-
+/*Hébergements*/
   .titresection {
-    text-align: center;
-    padding-bottom: 5px;
-  }
-
+  text-align: center;
+  padding-bottom: 5px;
+}
   #Hebergements {
     height: 900px;
-    left: 15%; 
-  left: 15%; 
-    left: 15%; 
     margin-bottom: 20px;
     border-radius: 18px;
+    margin: 0 20px 0 0;
   }
 
   .hotel h3{
     font-size: 16px;
     margin-block: 10px;
-    margin-left: 1px;
     width: max-content;
   }
 
@@ -750,18 +755,18 @@ header ul li {
   .hotel{
     width: 45%;
     height: 250px;
-    font-size: 16px;
     margin-left: 15px;
   }
 
-  .herbegementetpop{
-    margin: 25px 0 50px;
-    display: flex;
-  }
-
+/*Hébergements Populaires*/
+  .titresection1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+}
   #pluspopulaires {
     height: 940px;
-    width: 32%;
+    width: 25%;
   }
 
   .hebergementspop {
@@ -773,11 +778,9 @@ header ul li {
   .hotelpop{
     width: 150%;
     height: 235px;
-    padding: 8px;
+    padding: 5px;
     margin: 0 0 40px 0;
-    font-size: 14px;    
-  font-size: 14px;    
-    font-size: 14px;    
+    font-size: 14px;       
   }
 
  .hotelpop h3{
@@ -811,7 +814,7 @@ header ul li {
 }
 
 .fa-chart-line:before {
-    right: 40px;
+    right: -50px;
     color: black;
 }
 
@@ -822,11 +825,19 @@ header ul li {
 
 /*Acticités*/
 
+.containerActivites{
+  margin-right: -80px;
+}
+
 .nomactivite{
   padding: 0px 15px 20px;
 }
 
 /*Footer*/
+
+footer{
+  transform: translate(5%);
+}
 
 .interieurblockFooter{
   width: 100%;
