@@ -21,9 +21,8 @@ header img{
   display: flex;
   justify-content: space-between;
   margin-right: 5%;
+  margin-top: -40px;
 }
-
-
 
 header ul {
   display: flex;
@@ -66,7 +65,9 @@ a {
 
 /*RECHERCHES*/
 
-
+.Tit{
+  margin-top: 50px;
+}
 .logosearch {
   display: inline-flex;
   margin-top: 15px;
@@ -488,10 +489,18 @@ header{
 }
 
 /*Navigation*/
+.contenunav{
+  margin-top: 0;
+}
+
 .inscrire{
   position: absolute;
-  top: 29px;
+  top: 42px;
   right: 30px;
+}
+
+.Tit{
+  margin-top: 0;
 }
 
 nav{
@@ -685,11 +694,13 @@ header ul li {
 /*Recherhes*/
 .contenunav{
   margin-right: -10%;
+  margin-top: -30px;
 }
 
 .Tit{
   text-align: center;
   margin-right: -100px;
+  margin-top: 50px;
 }
 
 .logosearch {
