@@ -1,5 +1,5 @@
 body{
-  margin: 18px;
+  margin: 20px;
   font-family: "Raleway", sans-serif;
 }
 
@@ -80,7 +80,6 @@ button {
   padding: 15px 15px;
   border-radius: 0px 10px 10px 0px;
   font-weight: bold;
-  font-family: "Raleway", "Sans serif";
   font-size: 1em;
   cursor: pointer;
   margin: 0 -50px;
@@ -99,7 +98,6 @@ input {
   padding: 10px;
   border-radius: 5px;
   font-weight: bold;
-  font-family: "Raleway", "Sans serif";
   border-right: none;
   border-left: none;
   border-top: #f2f2f2 1px solid;
@@ -131,13 +129,11 @@ input {
 }
 
 .titre {
-
-    font-family: "Raleway", "Sans serif";
-    font-weight: bold;
-    padding-right: 1.5em;
-    padding-left: 0.5em;
-    cursor: pointer;
-    white-space:nowrap
+  font-weight: bold;
+  padding-right: 1.5em;
+  padding-left: 0.5em;
+  cursor: pointer;
+  white-space:nowrap
     
 }
 
@@ -167,14 +163,13 @@ input {
 }
 
 .imagefiltre {
-
-    color: #0065FC;
-    font-size: 1.4em;
-    background: #deebff;
-    border-radius: 50px;
-    padding: 16px;
-    width: 30px;
-    text-align: center;
+  color: #0065FC;
+  font-size: 1.4em;
+  background: #deebff;
+  border-radius: 50px;
+  padding: 16px;
+  width: 30px;
+  text-align: center;
 }
 
 
@@ -232,31 +227,28 @@ input {
 }
 
 .hotel {
-  
-    width: 30%;
-    width: calc(33.3% - 10px);
-    background: white;
-    border-radius: 20px;
-    padding: 5px;
-    box-sizing: border-box;
-    margin: 0 5px 20px 5px;
-    box-shadow: 0 5px 16px #0000002e;
+  width: calc(33.3% - 10px);
+  background: white;
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0 5px 20px 5px;
+  box-shadow: 0 5px 16px #0000002e;
 }
 
 .hotel:hover {
-    transform: scale(1.05);
-    transition: 2s;
+  transform: scale(1.05);
+  transition: 2s;
 }
 
 .hotel img {
-    background-color: white;
-    border-radius: 15px 15px 0px 0px;
-    cursor: pointer;
-    width: 100%;
-    height: 120px;
-    object-fit: cover;
+  background-color: white;
+  border-radius: 15px 15px 0px 0px;
+  cursor: pointer;
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
 }
-
 
 .hotel p {
   margin: 5px 10px;
@@ -268,8 +260,8 @@ input {
 }
 
 .etoiles {
-    margin: 3px 10px;
-    color: #0065fc;
+  margin: 3px 10px;
+  color: #0065fc;
 }
 
 .main {
@@ -299,35 +291,35 @@ input {
 }
 
 .hotelpop {
-    display: flex;
-    justify-content: left;
-    align-self: auto;
-    width: 100%;
-    background: white;
-    border-radius: 20px;
-    padding: 6px;
-    box-sizing: border-box;
-    margin: 0px 0px 20px 0px;
-    height: 145px;
-    box-shadow: 0 5px 16px #0000002e;
+  display: flex;
+  justify-content: left;
+  align-self: auto;
+  width: 100%;
+  background: white;
+  border-radius: 20px;
+  padding: 6px;
+  box-sizing: border-box;
+  margin: 0px 0px 20px 0px;
+  height: 145px;
+  box-shadow: 0 5px 16px #0000002e;
 }
 
 
 .hotelpop:hover {
-    transform: scale(1.05);
-    transition: 0.1s;
+  transform: scale(1.05);
+  transition: 0.1s;
     
 }
 
 .popimage {
-    background-color: white;
-    cursor: pointer;
-    float: left;
-    width: 140px;
-    height: 100%;
-    border-radius: 15px 0 0 15px;
-    margin: 0px 10px 2px 0px;
-    object-fit: cover;
+  background-color: white;
+  cursor: pointer;
+  float: left;
+  width: 140px;
+  height: 100%;
+  border-radius: 15px 0 0 15px;
+  margin: 0px 10px 2px 0px;
+  object-fit: cover;
 }
 
 .fa-chart-line:before {
@@ -343,9 +335,9 @@ input {
 }
 
 .hotelpop h3 {
-    font-size: 15px;
-    display: table-cell;
-    vertical-align: top;
+  font-size: 15px;
+  display: table-cell;
+  vertical-align: top;
 }
 
 .hotelpop p {
@@ -354,10 +346,10 @@ input {
 }
 
 .etoilespop {
-    margin: 40px 11px;
-    color:#0065FC;
+  margin: 40px 1px;
+  color:#0065FC;
 }
-/* ACTIVITEs */
+/* ACTIVITES */
 
 #Activite {
   width: 80%;
@@ -368,7 +360,6 @@ input {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: space-between;
-  justify-content: space-between;
   height: 496px;
   margin-top: 30px;
   margin-bottom: 100px;
@@ -387,7 +378,6 @@ input {
 
 .Activite:hover {
     transform: scale(1.05);
-    
 }
 
 .titresection {
@@ -427,7 +417,7 @@ input {
 }
 
 .Activite2 {
-   margin: 0px 0px 61px;
+  margin: 0px 0px 61px;
 }
 
 .Activite5 {
@@ -488,7 +478,7 @@ header{
   width: 100%;
 }
 
-/*Navigation*/
+/*NAVIGATION*/
 .contenunav{
   margin-top: 0;
 }
@@ -521,7 +511,7 @@ header ul li {
   padding: 10px 46px 5px 11px;
 }
 
-/*Boutons*/
+/*BOUTONS*/
 .loupelogo i {
   display: inline;
   color: white;
@@ -536,7 +526,7 @@ header ul li {
   display: none;
 }
 
-/*Filtres*/
+/*FILTRES*/
 .filtres {
   display: grid;
   }
@@ -565,7 +555,7 @@ header ul li {
 }
    
 
-/*Hébergements*/
+/*HEBERGEMENTS*/
 .hebergementetpop {
   display: flex;
   flex-direction: column;
@@ -575,7 +565,6 @@ header ul li {
   width: 100%;
   background-color: white;
   order: 2;
-  width: 100%;
   margin: 0%;
   padding: 0;
 }
@@ -591,7 +580,7 @@ header ul li {
   font-size: 14px;
 }
 
-/*Populaires*/
+/*HEBERGEMENTS POPULAIRES*/
 
 .hotelpop {
   width: 95%;
@@ -604,8 +593,6 @@ header ul li {
   margin-top: 20px;
 }
   
-
-/*Populaires*/
 .fa-chart-line:before {
   right: 50px;
   margin-top: -17px;
@@ -626,7 +613,7 @@ header ul li {
 }
 
 
-/*Activités*/
+/*ACTIVITES*/
 .containerActivites {
   display: grid;
   height: auto;
@@ -676,13 +663,13 @@ header ul li {
 }
   
   
-/*Footer*/
+/*FOOTER*/
 .blockFooter{
   display:grid;
 }
 
 .interieurblockFooter {
-    width: auto;
+  width: auto;
   }
 }
 
