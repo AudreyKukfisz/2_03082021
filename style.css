@@ -261,6 +261,7 @@ input {
 
 .etoiles {
   margin: 3px 10px;
+  font-size: 15px;
   color: #0065fc;
 }
 
@@ -346,7 +347,7 @@ input {
 }
 
 .etoilespop {
-  margin: 40px 1px;
+  font-size: 15px;
   color:#0065FC;
 }
 /* ACTIVITES */
@@ -494,11 +495,8 @@ header{
 }
 
 nav{
-  display: flex;
-  justify-content: space-around;
   align-items: center;
   width: 100%;
-  margin-top: 2px;
 }
 
 header ul li a:hover {
@@ -546,7 +544,7 @@ header ul li {
   top: 336px;
   margin: 34px 0 0 55%;
   width: 35%;
-  height: 9%;
+  height: 8%;
 }
 
 .imagefiltre{
@@ -769,7 +767,6 @@ header ul li {
 
   .hebergementspop {
     margin: 10px 70px 0px 30px;
-    transform: translate(-%);
     padding: 10px 0;
   }
 
