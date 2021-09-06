@@ -3,7 +3,7 @@ body{
   font-family: "Raleway", sans-serif;
 }
 
-.blocpage{
+#blocpage{
   width: 100%;
   margin: auto;
 }
@@ -455,9 +455,8 @@ footer{
   font-weight: 500;
 }
 
-/*Responsive Mobile*/
+@media screen and (max-width:646px)
 
-@media all and (max-width: 991px)
 {
   
 h2{
@@ -645,6 +644,7 @@ header ul li {
 .Activite img{
   width: 100%;
   height: 100px;
+  object-fit: cover;
 }
   
 .Activite{
@@ -670,27 +670,102 @@ header ul li {
   width: auto;
   }
 }
+@media  (min-width: 647px) and (max-width: 1024px)
+{
+
+/*NAVIGATION*/
+.contenunav{
+  margin-right: -0%;
+}
+
+.logosearch{
+  margin-left: 20px;
+}
+
+/*Filtres*/
+
+.filtres{
+   margin-left: 5px;
+   }
+  
+
+.titrefiltres{
+    margin-left: -7px;
+  }
+.fam{
+    width: 20%;
+    height: 5%;
+    position: absolute;
+    top: 28%;
+    margin: 34px 0 0 55%;
+}
+
+/*Hébergements Populaires*/
+
+#pluspopulaires {
+    width: 125%;
+    margin-right: 60px;
+  }
+
+/*Hébergements*/
+  
+  #Hebergements{
+   display: flex;
+   flex-wrap: wrap;
+    width: 120%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .hebergementmarseille{
+    justify-content: center;
+  }
+
+  .hotel{
+    width: 40%;
+    margin-left: 30px;
+  }
+
+  .afficherplus{
+    position: relative;
+    margin: 50px 50px 50px 50px;
+  }
+
+/*Acticités*/
+
+  #Activites{
+     width: 100%;
+
+  }
+
+  .containerActivites{
+    padding-right: 20px;
+  }
+
+
+ 
 
 /*Responsive Tablette*/
 
-@media  (min-width:992px) and (max-width: 1024px) and (orientation: landscape)
+
+@media screen and (max-width: 1024px) 
 {
 
-/*Recherhes*/
+
+/*NAVIGATION*/
 .contenunav{
-  margin-right: -10%;
-  margin-top: -30px;
+  width: 100%;
+  margin-right: 3%;
 }
 
 .Tit{
   text-align: center;
-  margin-right: -100px;
-  margin-top: 50px;
+  
 }
 
 .logosearch {
   position: relative;
-  left: 60%;
+  left: 50%;
   transform: translateX(-50%);
   margin-bottom: 5px;
   margin-top: -15px;
@@ -698,15 +773,23 @@ header ul li {
 
 /*Filtres*/
 .titre{
-  padding-right: 1em;
+  padding-right: 2em;
 }
 
 .filtres{
-  margin-right: 30px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.fam{
+  top: 25%;
+  position:static;
+ 
 }
 .barreFiltre {
-  width: 30%;
-  margin: 10px 5px 0 0;
+  
+  margin: 10px 10px 10px 10px;
+  width: 200px;
 }
 
 /*Information*/
@@ -717,9 +800,9 @@ header ul li {
 
 /*Hébergements et Pop*/
 .hebergementetpop{
-  width: 112%;
+  width: 80%;
   margin: 25px 0 50px;
-  display: flex;
+  flex-direction: column-reverse;
 }
 
 /*Hébergements*/
@@ -727,11 +810,10 @@ header ul li {
   text-align: center;
   padding-bottom: 5px;
 }
+
 #Hebergements {
-  height: 900px;
   margin-bottom: 20px;
   border-radius: 18px;
-  margin: 0 20px 0 0;
 }
 
 .hotel h3{
@@ -740,19 +822,18 @@ header ul li {
   width: max-content;
 }
 
-  .hotel p{
-    font-size: 14px;
-  }
+.hotel p{
+  font-size: 14px;
+}
 
-  .etoiles{
-    padding-top: 10px;
-  }
+.etoiles{
+  padding-top: 10px;
+}
 
-  .hotel{
-    width: 45%;
-    height: 250px;
-    margin-left: 15px;
-  }
+.hotel{
+  height: 250px;
+  margin-left: 30px;
+}
 
 /*Hébergements Populaires*/
   .titresection1{
@@ -761,29 +842,28 @@ header ul li {
     margin-top: 40px;
 }
   #pluspopulaires {
-    height: 940px;
-    width: 25%;
+    margin-left: 0;
+   
   }
 
   .hebergementspop {
-    margin: 10px 70px 0px 30px;
-    padding: 10px 0;
+   flex-direction: row;
+    margin-block: 10px;
+    margin-right: 10px;
   }
 
   .hotelpop{
     width: 150%;
     height: 235px;
     padding: 5px;
-    margin: 0 0 40px 0;
+    margin: 00 10px 0;
     font-size: 14px;       
   }
 
  .hotelpop h3{
-   font-size: 16px;
    padding: 10px 20px 0px 20px;
    text-align: center;
-  
- }
+}
 
  .hotelpop p{
    font-size: 14px;
@@ -798,6 +878,7 @@ header ul li {
     height: 120px;
     border-radius: 15px 15px 0px 0px;
     margin: 0px 10px 2px 0px;
+    object-fit: cover;
    
   }
 
@@ -809,14 +890,13 @@ header ul li {
 }
 
 .fa-chart-line:before {
-    right: -50px;
+    right: 50px;
     color: black;
 }
 
 .afficherplus{
   width: auto;
 }
-
 
 /*Acticités*/
 
@@ -842,7 +922,7 @@ footer{
 }
 /* GRAND ECRAN */ 
 
-@media (min-width: 1025px) and (max-width: 1600px) {
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
 #pluspopulaires {
   display: grid;
   }
