@@ -134,10 +134,7 @@ input {
   align-items: center;
   margin: 10px 10px 0 0;
 }
-.fam{
-  width: 15%;
-  height: 9%;
-}
+
 .filtres {
   display: flex;
   align-items: center;
@@ -282,7 +279,7 @@ input {
 .fa-chart-line:before {
   content: "\f201";
   position: absolute;
-  right: 80px;
+  right: 110px;
   margin-top: -17px;
   color: black;
 }
@@ -447,7 +444,6 @@ header ul li {
   position: relative;
   right: 52px;
 }
-
 .boutonderecherche {
 display: none;
 }
@@ -469,7 +465,6 @@ display: grid;
   top: 336px;
   margin: 34px 0 0 55%;
   width: 35%;
-  height: 8%;
 }
 .imagefiltre{
   display: flex;
@@ -580,49 +575,91 @@ display: grid;
 }
 }
 
-@media screen and (min-width: 647px) and (max-width: 1024px)
+@media screen and (min-width: 646px) and (max-width: 1023px)
 {
 
-body{
-  margin: 10px;
-}
 /*NAVIGATION*/
-
+.Tit{
+text-align: center;
+}
 .logosearch{
-  margin-left: 20px;
+  margin-left: 160px;
+  margin-top: 0;
 }
 
 /*Filtres*/
 
 .filtres{
-  margin-left: 5px;
-  flex-wrap: wrap;
-  justify-content: center;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.barreFiltre {  
+  margin: 0px 30px 10px 40px; 
+  width: 30%;  
 }
 .titrefiltres{
-  display: block;
-  margin-left: -7px;
+  padding-right: 650px;
+  margin: 10px 10px 0 60px;
 }
 .fam{
-  width: 20%;
   height: 5%;
-  top: 28%;
-  margin: 34px 0 0 55%;    
+  top: 28%;      
+}
+
+.hebergementetpop{
+  flex-direction: column-reverse;
+  margin: 25px 0 50px;
 }
 
 /*Hébergements Populaires*/
 
 #pluspopulaires {
+  width: 95%;
+  padding: 0px 20px;  
+}
+.hebergementspop {
+  flex-direction: row;
+  margin-block: 10px;
+  margin-right: 10px;
+}
+.hotelpop{
+  height: auto;
+  padding: 5px;
+  margin: 00 10px 0;
+  font-size: 14px;       
+}
+.hotelpop h3{
+  padding: 10px 20px 0px 20px;
+  text-align: center;
+}
+.hotelpop p{
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+  margin:0; 
+} 
+.popimage{
   width: 100%;
-  margin-right: 60px;
+  height: 80px;
+  border-radius: 15px 15px 0px 0px;
+  margin: 0px 10px 2px 0px;
+  object-fit: cover;
+}
+.etoilespop{
+  padding-top: 10px;
+  margin: 0;
+  flex-direction: row;
+  text-align: center;
 }
 
 /*Hébergements*/
-  
+.titresection {
+  padding-left: 250px;
+}  
 #Hebergements{
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 95%;
   margin-top: 20px;    
 }
 .hebergementmarseille{
@@ -631,6 +668,17 @@ body{
 .hotel{
   width: 40%;
   margin-left: 30px;
+}
+.hotel h3{
+  font-size: 16px;
+  margin-block: 10px;
+  width: max-content;
+}
+.hotel p{
+  font-size: 14px;
+}
+.etoiles{
+  padding-top: 10px;
 }
 .afficherplus{
   position: relative;
@@ -645,7 +693,6 @@ body{
   grid-column-gap: 40px;
   grid-row-gap: 3em;
   height: 1040px;
-  
 } 
 .blocActivite{
    width: 100%; 
@@ -668,12 +715,16 @@ body{
 .Activite5 {
   margin: 0px 0px 80px;
 }
+.interieurblockFooter{
+  padding: 10px 10px 0 10px;
+}
 
+}
 
 /*Responsive Tablette*/
 
 
-@media screen and (max-width: 1024px) 
+@media screen and (min-width: 1024px) and (max-width: 1200px)
 {
 /*NAVIGATION*/
 .contenunav{
@@ -685,16 +736,13 @@ body{
 }
 .logosearch {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 30%;
   margin-bottom: 5px;
   margin-top: -15px;
 }
 
 /*Filtres*/
-.titre{
-  padding-right: 2em;
-}
+
 .filtres{
   width: 100%;
 }
@@ -713,7 +761,6 @@ body{
 
 /*Hébergements et Pop*/
 .hebergementetpop{
-  
   margin: 25px 0 50px;
   flex-direction: column-reverse;
 }
@@ -723,12 +770,16 @@ body{
   text-align: center;
   padding-bottom: 5px;
   padding-left: 10px;
-
 }
 #Hebergements {
   margin-bottom: 20px;
   border-radius: 18px;
   padding: 0px;
+  width: 100%;
+  margin-top: 20px;
+}
+.hebergementmarseille {
+  justify-content: center;
 }
 .hotel h3{
   font-size: 16px;
@@ -745,6 +796,10 @@ body{
   height: 250px;
   margin-left: 30px;
 }
+.afficherplus{
+  position: relative;
+  margin: 50px 200px 50px 220px;
+}
 
 /*Hébergements Populaires*/
 .titresection1{
@@ -755,7 +810,8 @@ body{
 }
 #pluspopulaires {
   margin-left: 0;
-  padding: 0; 
+  padding: 0;
+  width: 100%; 
 }
 .hebergementspop {
   flex-direction: row;
@@ -769,12 +825,10 @@ body{
   margin: 00 10px 0;
   font-size: 14px;       
 }
-
 .hotelpop h3{
   padding: 10px 20px 0px 20px;
   text-align: center;
 }
-
 .hotelpop p{
   font-size: 14px;
   text-align: center;
@@ -803,7 +857,16 @@ body{
 }
 
 /*Acticités*/
-
+.containerActivites{
+  display: grid;
+  grid-template-columns: 380px  1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 3em;
+  height: 1040px;
+} 
+.blocActivite {
+  width: 100%;
+}
 .nomactivite{
   padding: 0px 15px 20px;
 }
@@ -820,3 +883,4 @@ footer{
 }
 
 
+}
